@@ -5,7 +5,6 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { Link } from 'react-router-dom'
 import Button from '@mui/material/Button';
 import Footer from '../../components/footer/footer'
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 const Contact = (props) => {
