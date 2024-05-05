@@ -1,0 +1,47 @@
+.registerContainer{
+    max-width: 70%;
+}
+
+.registerRow{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.registerForm a{
+    text-decoration: none;
+    color: #3bb77e;
+}
+
+.registerForm button{
+    outline: none;
+}
+
+.regBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.regBox button{
+    width: 400px;
+    height: auto;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-size: 23px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.regBox button:hover{
+    transform: translateY(-6px);
+}
+
+.regBox .google{
+    color: #000;
+    opacity: 0.5;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+}

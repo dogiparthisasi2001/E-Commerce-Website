@@ -1,0 +1,90 @@
+.homeProducts{
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+
+.filterTab li a{
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 500;
+    transition: top 0.3s ease-in-out;
+}
+
+.filterTab li{
+    margin-left: 20px; 
+    position: relative;
+}
+
+.filterTab li a:hover{
+    color: #3bb77e !important;
+    top: -7px !important;
+}
+
+.homeProducts .productRow{
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+    flex-wrap: wrap;
+}
+
+.homeProducts .productRow .item{
+    width: 20%;
+    padding: 15px 10px;
+}
+
+.homeProductsRow2 .prodSlider .item{
+    padding: 25px 10px; 
+}
+
+.homeProductsRow2 .prodSlider .slick-current .productThumb{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);    
+}
+
+.homeProductsRow2 .box{
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);    
+    position: relative;
+}
+
+.homeProductsRow2 .box img{
+    height: 470px;
+}
+
+.homeProductsRow2 .box h4{
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    right: 19%;
+    font-size: 38px;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.homeProductsRow2 .box button{
+    position: absolute;
+    top: 58%;
+    left: 14%;
+    color: #fff;
+    text-transform: capitalize;
+    height: 35px;
+    width: 115px;
+    background: #3bb77e;
+    transition: background-color 0.3s ease, width 0.3s ease;
+}
+
+.homeProductsRow2 .box svg{
+    font-size: 20px;
+    transition: right 0.3s ease;
+}
+
+.homeProductsRow2 .box button:hover{
+    background: #ffc40c;
+    width: calc(115px + 20px);
+}
+
+.homeProductsRow2 .box button:hover svg{
+    right: 20px;
+}

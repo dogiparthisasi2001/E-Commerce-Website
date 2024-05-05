@@ -1,0 +1,382 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+
+.breadcrumbWrapper {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.breadCrumb2 {
+    background: none;
+    padding: 0px;
+    display: flex;
+}
+
+.breadCrumb2 li {
+    margin-right: 25px;
+    list-style: none;
+    vertical-align: center;
+    opacity: 0.7;
+}
+
+.breadCrumb2 li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    color: #3bb77e;
+}
+
+.breadCrumb2 li a:hover {
+    color: #ffc40c;
+    opacity: 0.8;
+}
+
+p {
+    color: #7E7E7E;
+    font-size: 16px;
+}
+
+.detailsPage .productInfo {
+    padding-left: 40px;
+}
+
+.detailsPage .productInfo h1 {
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+
+.detailsPage .productInfo .priceSection {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.detailsPage .productInfo .priceSection .priceLarge {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.detailsPage .productInfo .priceSection .text-org {
+    font-size: 16px;
+    color: #ffc40c;
+    opacity: 0.8;
+}
+
+.detailsPage .productInfo .priceSection .textLight {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.productZoom {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.zoomSlider {
+    padding-top: 30px;
+}
+
+.zoomSlider * {
+    outline: none;
+}
+
+.zoomSlider .slick-slide {
+    padding-right: 4px;
+    padding-left: 4px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.zoomSlider .slick-current {
+    border: 1px solid #3bb77e;
+}
+
+.zoomSlider .slick-arrow {
+    top: 60% !important;
+}
+
+.zoomSlider .slick-arrow.slick-next {
+    right: -5% !important;
+}
+
+.zoomSlider .slick-arrow.slick-prev {
+    left: -5% !important;
+}
+
+.detailsContainer {
+    max-width: 85%;
+}
+
+.productSize {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.productSize ul li {
+    margin-left: 10px;
+}
+
+.productSize ul li a {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.productSize ul li a:hover {
+    background: #3bb77e;
+    color: #fff !important;
+}
+
+.productSize ul li a.active {
+    background: #3bb77e;
+    color: #fff;
+}
+
+.addCartSection {
+    width: 100%;
+    height: auto;
+}
+
+.addCartSection .counter {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #3bb77e;
+    padding: 10px 5px;
+}
+
+.addCartSection .counter input {
+    width: 70px;
+    height: 30px;
+    border: 0px;
+    outline: none;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.addCartSection .counter {
+    position: relative;
+}
+
+.addCartSection .counter .arrow {
+    position: absolute;
+    cursor: pointer;
+    color: #3bb77e;
+}
+
+.addCartSection .counter .arrow.plus {
+    top: 3px;
+    right: 10px;
+}
+
+.addCartSection .counter .arrow.minus {
+    bottom: -1px;
+    right: 10px;
+}
+
+.addCartSection .cartButton {
+    background: #3bb77e;
+    color: #fff;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.addCartSection .cartButton:hover {
+    background: #ffc40c;
+    opacity: 0.7;
+}
+
+.addCartSection .icon{
+    width: 40px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    color: #000;
+    opacity: 0.6;
+}
+
+.addCartSection .icon:hover{
+    transform: translateY(-5px);
+    background: #3bb77e;
+    opacity: 1;
+    color: #fff;
+}
+
+.detailsPageTabs{
+    border-radius: 20px;
+}
+
+.customTabs ul li{
+    margin-right: 30px !important;
+}
+
+.customTabs ul li button{
+    padding: 9px 25px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #000;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+.customTabs ul li button:hover{
+    color: #3bb77e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-5px);
+}
+
+.customTabs ul li button.active{
+    color: #3bb77e;
+}
+
+.tabContent p svg{
+    vertical-align: middle;
+    font-size: 26px;
+    color: #000;
+    opacity: 0.8;
+    color: #3bb77e;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.reviewsCard{
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.reviewsCard:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.reviewsCard .image{
+    width: 80px;
+}
+
+.reviewsCard .rounded-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+}
+
+.reviewsCard .rounded-circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group .form-control{
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-group textarea.form-control{
+    height: 250px;
+}
+
+.reviewForm button, .contactForm button{
+    background: #3bb77e;
+    color: #fff;
+    text-transform: capitalize;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.reviewForm button:hover, .contactForm button:hover{
+    background: #3bb77e;
+    color: #fff;
+}
+
+.progressBarBox{
+    margin-bottom: 15px;
+}
+
+.progressBarBox .progress-bar{
+    background: #3bb77e;
+}
+
+.relatedProducts .item{
+    padding: 15px 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.relatedProducts h3{
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.relatedProducts h3:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+  
+.relatedProducts h3:before {
+    content: '';
+    width: 25%;
+    height: 3px;
+    background: #3bb77e;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

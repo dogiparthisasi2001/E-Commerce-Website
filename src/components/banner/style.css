@@ -1,0 +1,52 @@
+.bannerSection {
+    padding-bottom: 20px;
+}
+
+.bannerSection .box {
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bannerSection .box:hover img{
+    transform: scale(1.1);    
+}
+
+.bannerSection .box h5{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    right: 35%;
+    font-size: 26px;
+    color: #000;
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+.bannerSection .box button{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: #fff;
+    text-transform: capitalize;
+    height: 35px;
+    width: 115px;
+    background: #3bb77e;
+    transition: background-color 0.3s ease, width 0.3s ease;
+}
+
+.bannerSection .box svg{
+    font-size: 20px;
+    transition: right 0.3s ease;
+}
+
+.bannerSection .box button:hover{
+    background: #ffc40c;
+    width: calc(115px + 20px);
+}
+
+.bannerSection .box button:hover svg{
+    right: 20px;
+}

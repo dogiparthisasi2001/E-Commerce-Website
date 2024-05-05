@@ -1,0 +1,23 @@
+.purchaseContainer{
+    max-width: 75%;
+    margin-bottom: 200px;
+}
+
+.purchasePage .img{
+    padding-top: 80px;
+}
+
+.purchasePage .img img{
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: auto;
+}
+
+.purchaseInfo{
+    opacity: 0.9;
+}
+
+.purchaseInfo p{
+    color: #000;
+    font-size: 16px;
+}

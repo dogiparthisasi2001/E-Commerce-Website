@@ -1,0 +1,25 @@
+.blogPage{
+    padding-top: 30px;
+}
+
+.blogRow{
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+    flex-wrap: wrap;
+}
+
+.blogRow .blogItem{
+    width: 33%;
+    padding: 0px 10px;
+}
+
+.blogLeft img{
+    width: 40px;
+    height: auto;
+}
+
+.blogLeft .rec{
+    font-size: 28px;
+    font-weight: 500;
+}

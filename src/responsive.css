@@ -1,0 +1,83 @@
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .headerWrapper .part1{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .headerWrapper .part1 .navbarToggle{
+        width: 40px;
+        height: auto;
+    }
+    .headerWrapper .part1 .navbarToggle svg{
+        font-size: 30px;
+    }
+    .headerWrapper .d-flex.part3{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 992px){
+    .container-fluid{
+        padding: 0px 15px !important;
+    }
+    .res-hide{
+        display: none !important;
+    }
+    .headerSearch{
+        position: fixed;
+        top: 0px;
+        right: -100%;
+        opacity: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100% !important;
+        background: #fff;
+        align-items: flex-start !important;
+        flex-direction: column;
+        padding: 30px !important;
+        padding-top: 90px !important;
+        border: none !important;
+        transition: all 0.5s ease-in-out;
+    }
+    .headerSearch.open{
+        opacity: 1;
+        right: 0px;
+    }
+    .headerSearch .select-Drop{
+        width: 100% !important;
+    }
+    .headerSearch .search{
+        padding-left: 0px !important;
+        width: 100% !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        margin-top: 15px;
+        padding-left: 10px !important;
+    }
+    .headerSearch .search .searchIcon{
+        right: 10px !important;
+    }
+    .closeSearch{
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        z-index: 100;
+        cursor: pointer;
+        width: 40px;
+        height: auto;
+    }
+    .closeSearch svg{
+        font-size: 30px !important;
+    }
+    .myAccDrop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        background: #3bb77e;
+        border-radius: 50%;
+    }
+    .myAccDrop svg{
+        color: #fff;
+        font-size: 30px;
+    }
+}

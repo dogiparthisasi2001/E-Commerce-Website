@@ -1,0 +1,114 @@
+.aboutContainer{
+    max-width: 85%;
+}
+
+.welcomeRow img{
+    border-radius: 30px;
+}
+
+.prodSlider .item{
+    padding: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.h1{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.h1:after{
+    content: '';
+    width: 30%;
+    justify-content: center;
+    height: 3px;
+    background: #3bb77e;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+.cardRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardRow .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.cardRow .card:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cardRow .card img{
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin: 35px 0px;
+}
+
+.cardRow .card p{
+    margin: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cardRow .card .more{
+    color: #3bb77e;
+    cursor: pointer;
+}
+
+.cardRow .card .more:hover{
+    color: #ffc40c;
+}
+
+.teamSection button{
+    background: #3bb77e;
+    color: #fff;
+    text-transform: capitalize;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.teamSection button:hover{
+    background: #ffc40c;
+}
+
+.teamSection img{
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.teamSection .team:hover .teamInfo{
+    top: 68%;
+}
+
+.teamSection .teamInfo{
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    top: 70%;
+    left: 14%;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 20px;
+    transition: top 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

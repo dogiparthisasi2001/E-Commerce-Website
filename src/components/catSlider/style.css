@@ -1,0 +1,94 @@
+.catSliderSection{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.cat_slider_main .item{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+
+.cat_slider_main .slick-slide{
+    padding: 0px 10px;
+}
+
+.cat_slider_main .item .info{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.cat_slider_main .item .info img{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.cat_slider_main .item .info h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.cat_slider_main .item .info p{
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.cat_slider_main .slick-arrow.slick-next{
+    top: -40px;
+    right: 0px;
+}
+
+.cat_slider_main .slick-arrow.slick-prev{
+    top: -40px;
+    right: 75px;
+    left: inherit !important;
+}
+
+.cat_slider_main .item:hover .info{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(1.0);
+}
+
+.catList{
+    list-style: none;
+}
+
+.catList h2{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.catList li{
+    display: inline-block;
+}
+
+.catList li a{
+    margin-right: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+    transition: all 0.1s ease;
+    position: relative;
+    opacity: 0.7;
+    color: #000;
+    display: block;
+}
+
+.catList li a:hover{
+    color: #3bb77e;
+    cursor: pointer;
+    transform: translateY(-4px);
+    text-decoration: none;
+}

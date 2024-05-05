@@ -1,0 +1,87 @@
+.vendorThumb{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+}
+
+.vendorThumb .badge{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    z-index: 10;
+    color: #fff;
+    width: auto;
+    height: 33px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-bottom-left-radius: 20px;
+    text-transform: capitalize;
+}
+
+.vendorThumb .badge.mall{
+    background: #f74b81;
+}
+
+.vendorThumb .badge.preferred{
+    background: #67bcee;
+}
+
+.vendorThumb img{
+    width: 130px;
+    height: auto;
+}
+
+.vendorInfo .catName{
+    color: #000;
+    opacity: 0.6;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.vendorInfo .title a{
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.vendorInfo .title a:hover{
+    color: #3bb77e;
+}
+
+.vendorInfo .num{
+    background: #DEF9EC;
+    color: #3bb77e;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.vendorInfo .num:hover{
+    background: #DEF9EC;
+}
+
+.vendorInfo .vendorIcon p{
+    font-size: 16px;
+}
+
+.vendorInfo .vendorIcon svg{
+    vertical-align: middle;
+    font-size: 22px;
+    color: #000;
+    opacity: 0.8;
+    color: #3bb77e;
+}
+
+.vendorInfo button{
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}

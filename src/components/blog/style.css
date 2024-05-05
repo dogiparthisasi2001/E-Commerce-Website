@@ -1,0 +1,44 @@
+.blogThumb{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogThumb:hover{
+    transform: translateY(-7px);
+}
+
+.blogThumb img{
+    width: 340px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.blogInfo .catName{
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.blogInfo{
+    text-align: center;
+}
+
+.blogInfo p a{
+    color: #000;
+    opacity: 0.9;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.blogInfo p a:hover{
+    color: #3bb77e;
+}
+
+.blogInfo .date{
+    font-size: 15px;
+}

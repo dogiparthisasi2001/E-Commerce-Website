@@ -1,0 +1,66 @@
+.wishlistSection{
+    max-width: 85%;
+    margin-bottom: 200px;
+}
+
+.wishlistWrapper table thead th{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 0px;
+}
+
+td, th{
+    text-align: center;
+
+}
+
+.wishlistWrapper table tbody td img{
+    width: 150px;
+    height: 170px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.wishlistWrapper table tbody td .info a{
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.wishlistWrapper table tbody td .info a:hover{
+    color: #3bb77e;
+}
+
+.wishlistWrapper button{
+    padding: 10px 20px;
+}
+
+.wishlistWrapper .buttonOne, .wishlistWrapper .buttonOne:hover{
+    color: #3bb77e;
+    background: #98ecca;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.wishlistWrapper .buttonTwo{
+    color: #fff;
+    background: #3bb77e;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.wishlistWrapper .buttonTwo:hover{
+    background: #ffc40c;
+}
+
+.wishlistWrapper .buttonThree, .wishlistWrapper .buttonThree:hover{
+    background: rgb(247, 224, 228);
+    color: #e6667b;
+    text-transform: capitalize;
+}
+
+.wishlistWrapper .buttonFour, .wishlistWrapper .buttonFour:hover{
+    background: rgb(2, 2, 86);
+    color: #fff;
+    text-transform: capitalize;
+}

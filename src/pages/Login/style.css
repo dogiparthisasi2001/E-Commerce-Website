@@ -1,0 +1,42 @@
+.loginPage{
+    margin-bottom: 200px;
+}
+
+.loginContainer{
+    max-width: 70%;
+}
+
+.loginRow img{
+    border-radius: 20px;
+}
+
+.loginForm .security input, .registerForm .security input{
+    background: #d8f1e5;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: #3bb77e;
+}
+
+.loginForm button, .registerForm button, .forgotPage button, .passwordPage button{
+    background: rgb(2, 2, 86);
+    color: #fff;
+    text-transform: capitalize;
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px 30px;
+    outline: none;
+}
+
+.loginForm button:hover, .registerForm button:hover, .forgotPage button:hover, .passwordPage button:hover{
+    background: #3bb77e;
+    transform: translateY(-5px);
+}
+
+.loginForm a{
+    color: #3bb77e;
+    text-decoration: none;
+}

@@ -1,38 +1,341 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Roboto', 'sans-serif';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-fluid {
+  padding: 0px 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cursor {
+  cursor: pointer;
+}
+
+.bg-g,
+.bg-success {
+  background: #3bb77e !important;
+}
+
+.text-g {
+  color: #3bb77e !important;
+}
+
+.hd {
+  font-size: 28px;
+  font-weight: 500px;
+  margin-bottom: 10px;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.listingPage {
+  width: 100%;
+  height: auto;
+  padding: 45px 0px;
+}
+
+.breadCrumb {
+  width: 100%;
+  height: auto;
+  padding: 55px 45px;
+  background: #d8f1e5;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.breadCrumb h2 {
+  color: #000;
+  opacity: 0.8;
+  font-size: 45px;
+}
+
+.breadCrumb ul li {
+  margin-right: 20px !important;
+}
+
+.breadCrumb ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.breadCrumb ul li a svg {
+  vertical-align: middle;
+}
+
+.breadCrumb ul .home a {
+  color: #3bb77e !important;
+}
+
+.breadCrumb ul .home:hover a {
+  color: #ffc40c !important;
+  opacity: 0.7;
+}
+
+.bread_crumb{
   display: flex;
+  margin-top: -70px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.bread_crumb ul{
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bread_crumb ul li{
+  display: inline;
+  margin-right: 25px;
+}
+
+.bread_crumb ul li button{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #3bb77e;
+  border-radius: 30px;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+  font-size: 17px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bread_crumb ul li button:hover{
+  color: #3bb77e;
+  background: #fff;
+  transform: translateY(-5px);
+}
+
+.bread_crumb ul li button svg{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebarWrapper {
+  max-width: 20%;
+  flex: 0 0 20%;
+}
+
+.sidebarWrapper h3 {
+  font-size: 26px;
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 25px;
+}
+
+.sidebarWrapper h3:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.sidebarWrapper h3:before {
+  content: '';
+  width: 25%;
+  height: 3px;
+  background: #3bb77e;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.sidebarWrapper .sidebar {
+  position: sticky;
+  top: 110px;
+}
+
+.sidebarWrapper .sidebar .card {
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sidebarWrapper .sidebar .card .cat_list .catItem {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 6px 0px;
+}
+
+.sidebarWrapper .sidebar .card .cat_list .catItem .rounded-circle {
+  background: #BCE3C9;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebarWrapper .sidebar .card .cat_list .catItem h5 {
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.sidebarWrapper .sidebar .card .cat_list .catItem:hover h5 {
+  color: #3bb77e;
+}
+
+.sidebarWrapper .sidebar .card .cat_list .catItem:hover {
+  border: 1px solid #3bb77e;
+}
+
+.rightContent {
+  max-width: 80%;
+  flex: 0 0 78%;
+}
+
+.priceRange span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.filters {
+  padding-top: 25px;
+}
+
+.filters h5 {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.filters ul li {
+  width: 100%;
+  list-style: none;
+  opacity: 0.8;
+  margin-left: -10px;
+}
+
+.filters button {
+  background: #3bb77e;
+  color: #fff;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.filters button:hover {
+  background: #ffc40c;
+  opacity: 0.5;
+}
+
+.boxx {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.boxx .innerBox {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 38%;
+}
+
+.boxx .innerBox p {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.boxx .innerBox h5 {
+  font-size: 26px;
+  color: #000;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.rightContent .topStrip p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.rightContent .topStrip .tab_ {
+  width: 220px;
+}
+
+.rightContent .topStrip .tab_ .btn_ {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  overflow: hidden;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
+.rightContent .topStrip .tab_ .listingDropdown {
+  width: 220px;
+  top: 100%;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+}
+
+.rightContent .topStrip .tab_ .listingDropdown li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.rightContent .topStrip .tab_ .listingDropdown li button{
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: capitalize;
+  outline: none;
+}
+
+.rightContent .topStrip .tab_ .listingDropdown li button:hover {
+  color: #3bb77e;
+  width: 90%;
+}
+
+.newProd .img {
+  width: 40%;
+}
+
+.newProd .info {
+  padding: 10px 0px;
+  padding-left: 20px;
+}
+
+.newProd .info h5 {
+  font-size: 19px;
+  color: #000;
+  opacity: 0.9;
+}
+
+.newProd .info h5:hover{
+  color: #ffc40c;
+  opacity: 0.7;
+}
+
+.newProd .info a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.8;
+}
+
+.textLight{
+  color: #7E7E7E;
+  font-size: 14px;
+  opacity: 0.7;
 }

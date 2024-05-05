@@ -1,0 +1,16 @@
+.privacyContainer{
+    max-width: 75%;
+    margin-bottom: 200px;
+}
+
+.privacyPage h1{
+    padding-top: 80px;
+}
+
+.privacyPage h4{
+    color: #000;
+}
+
+.privacyPage ol li{
+    opacity: 0.8;
+}

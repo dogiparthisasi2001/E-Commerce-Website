@@ -1,0 +1,27 @@
+.termsContainer{
+    max-width: 75%;
+    margin-bottom: 200px;
+}
+
+.termsPage{
+    padding-top: 80px;
+}
+
+.termsInfo p{
+    color: #000;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+.termsInfo h4{
+    color: #000;
+}
+
+.termsInfo a{
+    color: #3bb77e;
+    text-decoration: none;
+}
+
+.termsInfo a:hover{
+    color: #ffc40c;
+}

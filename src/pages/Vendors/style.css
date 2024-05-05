@@ -1,0 +1,39 @@
+.vendorPage{
+    padding-top: 60px;
+}
+
+.head{    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1{
+    font-size: 65px;
+    opacity: 0.9;
+    margin-bottom: 35px;
+}
+
+.head .search{
+    width: 35%;
+}
+
+.head .search input{
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.vendorRow{
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+    flex-wrap: wrap;
+}
+
+.vendorRow .vendor{
+    width: 25%;
+    padding: 15px 10px;
+}

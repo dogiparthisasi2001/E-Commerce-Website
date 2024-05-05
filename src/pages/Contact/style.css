@@ -1,0 +1,48 @@
+.contactRow, .addressRow, .contactForm{    
+    padding: 0px 75px;
+}
+
+h4{
+    padding: 15px 0px;
+    color: #3bb77e;
+}
+
+.contactRow h4{
+    font-size: 26px;
+}
+
+.contactRow h1{
+    font-size: 48px;
+    opacity: 0.9;
+    padding: 10px 0px;
+}
+
+.addressRow p{
+    margin-bottom: 5px;
+}
+
+.addressRow button{
+    background: #3bb77e;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+}
+
+.addressRow button:hover{
+    background: #ffc40c;
+    opacity: 0.8;
+}
+
+.contactForm img{
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+/* 
+.mapRow{
+    height: 400px !important;
+} */
+

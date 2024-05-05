@@ -1,0 +1,157 @@
+.footerWrapper{
+    padding: 45px 0px;
+    width: 100%;
+}
+
+.footerWrapper .footerBoxes .box{
+    background: #F4F6FA;
+    border-radius: 10px;
+    padding: 15px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.footerWrapper .footerBoxes .box:hover img{
+    transform: translateY(-10%);
+}
+
+.footerWrapper .footerBoxes .box .info{
+    padding-left: 25px;
+}
+
+.footerWrapper .footerBoxes .box .info h5{
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.footerWrapper .footerBoxes .box .info p{
+    margin-bottom: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.footerWrapper .footerBoxes .box img{
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+}
+
+footer{
+    padding: 10px 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer .part1{
+    padding-right: 40px;
+}
+
+footer .part1 h6{
+    padding-top: 20px;
+    padding-bottom: 19px;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+footer .part1 p svg{
+    vertical-align: middle;
+    font-size: 26px;
+    color: #000;
+    opacity: 0.8;
+    color: #3bb77e;
+}
+
+footer .part2{
+    margin-top: 20px;
+}
+
+footer .part2 h4{
+    margin-bottom: 20px;
+}
+
+footer .part2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .part2 ul li a{    
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .part2 ul li a:hover{
+    color: #3bb77e;
+    padding-left: 10px;
+}
+
+footer .part3{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+footer .part3 p{
+    opacity: 0.9;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+footer .part3 .img{
+    padding-bottom: 20px;
+}
+
+footer .lastStrip{
+    padding: 15px 0px;
+}
+
+footer .lastStrip p{
+    opacity: 0.8;
+}
+
+footer .lastStrip .phNo svg{
+    font-size: 40px;
+    opacity: 0.6;
+}
+
+footer .lastStrip .part6 h5{
+    margin-bottom: 0px;     
+}
+
+footer .lastStrip .part6 ul{
+    margin-bottom: 0px; 
+    padding-left: 15px; 
+    display: flex;
+}
+
+footer .lastStrip .part6 ul li{
+    padding-left: 7px !important;
+}
+
+footer .lastStrip .part6 ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    background: #3bb77e;
+    border-radius: 50%;  
+    transition: all 0.3s ease-in-out; 
+}
+
+footer .lastStrip .part6 ul li a:hover{
+    color: #98ecca;
+    transform: translateY(-15%);
+}
+
+footer .lastStrip .part6 ul li a svg{
+    color: #fff;
+    font-size: 24px;
+}
+
+footer .lastStrip .part6 p{
+    margin-top: 15px;
+}

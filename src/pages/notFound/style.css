@@ -1,0 +1,50 @@
+.notFound{
+    width: 100%;
+    height: auto;
+    padding: 45px 0px;
+}
+
+.notFound .box{
+    width: 50%;
+    height: auto;
+    padding: 100px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.notFound .box h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.7;
+}
+
+.notFound .box p{
+    color: #000;
+    opacity: 0.6;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.notFound .box p span{
+    color: #3bb77e;
+}
+
+.notFound .box button{
+    margin-top: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    height: 45px;
+    width: 255px;
+    font-size: 18px;
+    background: #3bb77e;
+    transition: background-color 0.3s ease, width 0.3s ease
+}
+
+.notFound .box button:hover{
+    background: #ffc40c;
+    opacity: 0.7;
+    width: calc(255px + 20px);
+}

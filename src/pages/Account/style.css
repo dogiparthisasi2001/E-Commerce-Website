@@ -1,0 +1,67 @@
+.accountContainer{
+    max-width: 85%;
+}
+
+.accountRow{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.accButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.accButton a{
+    color: #000;
+    text-decoration: none;
+}
+
+.accButton button{
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    color: #000;
+    opacity: 0.6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 10px 0px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.accButton button.active{
+    background: #3bb77e;
+    color: #fff;
+    opacity: 1;
+    border: none;
+}
+
+.accContent button{
+    width: auto;
+    height: auto;
+    padding: 12px 30px;
+    background: rgb(2, 2, 86);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-transform: capitalize;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.accContent button:hover{
+    background: #3bb77e;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.address p{
+    margin-bottom: 3px;
+}
+
+.buttonInfo a{
+    color: #3bb77e;
+    text-decoration: none;
+}

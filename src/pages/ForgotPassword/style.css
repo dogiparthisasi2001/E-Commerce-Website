@@ -1,0 +1,18 @@
+.forgotContainer{
+    max-width: 40%;
+    margin-bottom: 200px;
+}
+
+.forgotPage img{
+    width: 85px;
+    height: 85px;
+    margin-top: 150px;
+}
+
+.security input{
+    background: #d8f1e5;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: #3bb77e;
+}

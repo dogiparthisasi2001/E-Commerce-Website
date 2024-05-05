@@ -1,0 +1,76 @@
+.topSellingBox{
+    margin-bottom: 60px;
+}
+
+.topSellingBox h3{
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.topSellingBox h3:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.topSellingBox h3:before{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background: #3bb77e;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.topSellingBox .items{
+    padding-top: 30px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.topSellingBox .items:hover{
+    transform: translateY(-10px);
+}
+
+.topSellingBox .items .img{
+    width: 30%;
+    background: #fafafa;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.topSellingBox .items .info{
+    width: 70%;
+    padding-left: 20px;
+}
+
+.topSellingBox .items .info h5{
+    font-size: 17px;
+    color: #000;
+    opacity: 0.9;
+}
+
+.topSellingBox .items .info a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+}
+
+.topSellingBox .items .info .price{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.topSellingBox .items .info .oldPrice{
+    font-size: 16px;
+    color: #000;
+    opacity: 0.6;
+    text-decoration: line-through;
+}

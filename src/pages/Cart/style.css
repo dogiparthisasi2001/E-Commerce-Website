@@ -1,0 +1,103 @@
+.cartPage{
+    margin-bottom: 200px;
+}
+
+.left h1{
+    font-size: 50px;
+}
+
+.cartWrapper table thead th{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 0px;
+}
+
+.cartWrapper table tbody td img{
+    width: 150px;
+    height: 170px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 10px 0px;
+    align-items: center;
+    vertical-align: center;
+}
+
+.cartWrapper table tbody td h5{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3bb77e;
+    cursor: pointer
+}
+
+.cartWrapper table tbody td h5:hover{
+    color: #ffc40c;
+}
+
+.cartWrapper table tbody td .svg{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+}
+
+.cartWrapper table tbody td .svg:hover{
+    color: #3bb77e;
+}
+
+.cartWrapper .buttons button{
+    background: #3bb77e;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+.cartPage .card{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+}
+
+.cartPage .card span{
+    color: #3bb77e;
+    font-size: 18px;
+}
+
+.cartPage .card h5{
+    font-size: 18px;
+}
+
+.cartPage .card button{
+    width: 100%;
+    color: #fff;
+    background: #3bb77e;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-size: 18px;
+    outline: none;
+}
+
+.cartPage .card button:hover{
+    color: #fff;
+    background: #ffc40c;
+}
+
+.cartPage .cartForm{
+    border: 0.5px solid rgba(0, 0, 0, 0.22);
+    border-radius: 20px;
+    padding: 50px 25px;
+}
+
+.cartPage .cartForm1 button{
+    background: #3bb77e;
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cartPage .cartForm1 button:hover{
+    color: #fff;
+    background: #3bb77e;
+}
